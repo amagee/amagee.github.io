@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>hugo-orgmode // Magee</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://example.org/css/main.min.68e582a4d4ed824d6b7e3b5b37cae47eb3779bd631046379d0e68b38230cc3e2.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="hugo-orgmode"/>
+<meta name="twitter:description" content="Writing Hugo in Org   Hugo is a site generator. Among other things it has native support for generating websites from collections of Emacs Org Mode files.
+  What about a link to Emacs
+  It&rsquo;s as simple as putting .org files in the content/ directory of the the generated site. Hugo has built-in Org Mode support.
+ Hugo will create one page per file. It supports a bunch of different file types out of the box."/>
+
+    <meta property="og:title" content="hugo-orgmode" />
+<meta property="og:description" content="Writing Hugo in Org   Hugo is a site generator. Among other things it has native support for generating websites from collections of Emacs Org Mode files.
+  What about a link to Emacs
+  It&rsquo;s as simple as putting .org files in the content/ directory of the the generated site. Hugo has built-in Org Mode support.
+ Hugo will create one page per file. It supports a bunch of different file types out of the box." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/hugo-orgmode/" />
+<meta property="article:published_time" content="2021-01-11T00:00:00+11:00" />
+<meta property="article:modified_time" content="2021-01-11T00:00:00+11:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://example.org/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Magee</h1>
+      <p>Some assorted content</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">hugo-orgmode</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jan 11, 2021
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h2 id="writing-hugo-in-org">Writing Hugo in Org</h2>
+<ul>
+<li>
+<p><a href="https://gohugo.io/">Hugo</a> is a site generator. Among other things it has native
+support for generating websites from collections of Emacs
+Org Mode files.</p>
+</li>
+<li>
+<p>What about a link to <a href="/section1/emacs">Emacs</a></p>
+</li>
+<li>
+<p>It&rsquo;s as simple as putting <code>.org</code> files in the <code>content/</code> directory
+of the the generated site. Hugo has built-in Org Mode support.</p>
+<ul>
+<li>Hugo will create one page per file. It supports a bunch of different
+file types out of the box.</li>
+</ul>
+</li>
+<li>
+<p>Use Hugo&rsquo;s syntax for document metadata:</p>
+<pre><code class="language-nil" data-lang="nil">#+title: Page title
+#+subtitle: Subtitle
+#+date: 2021-01-10
+#+tags[]: tag1, tag2, tag3
+</code></pre></li>
+</ul>
+<h3 id="bug-workaround">Bug workaround</h3>
+<p>Note: there&rsquo;s a Hugo bug that will mess you up trying to build emacs temp files.</p>
+<pre><code class="language-nil" data-lang="nil">Built in 2 ms
+Error: Error building site: process: readAndProcessContent: walk: Readdir: decorate: lstat /home/amagee/docs/hugo/quickstar
+t/content/section1/amagee@amagee-76.18230:1610252052: no such file or directory
+</code></pre><ul>
+<li><a href="https://github.com/gohugoio/hugo/issues/6773">https://github.com/gohugoio/hugo/issues/6773</a></li>
+<li>Delete files that look like <code>.#hugo-orgmode.org</code> in the <code>content/...</code> directories and try again.</li>
+</ul>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><a href="https://gohugo.io/getting-started/quick-start">Hugo getting started</a></li>
+<li><a href="https://willschenk.com/articles/2019/using%5Forg%5Fmode%5Fin%5Fhugo/">Using Org Mode in Hugo</a></li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Magee</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Magee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +1100</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Summarising ESLint issues</title>
+      <link>http://example.org/posts/eslint-summary/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +1100</pubDate>
+      
+      <guid>http://example.org/posts/eslint-summary/</guid>
+      <description>npm install eslint-formatter-summary ./node_modules/eslint/bin/eslint.js -f summary ./src </description>
+    </item>
+    
+    <item>
+      <title>ox-hugo</title>
+      <link>http://example.org/posts/ox-hugo/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +1100</pubDate>
+      
+      <guid>http://example.org/posts/ox-hugo/</guid>
+      <description>Compiles Org Mode files to Hugo markdown files, so essentially duplicates a lot of the functionality of Hugo itself, but has the advantage that you don&amp;rsquo;t need any Hugo-specific syntax in your Org files to make them work.
+To setup, add
+dotspacemacs-configuration-layers &amp;#39;( ;; ... (org :variables org-enable-hugo-support t) ;; ... ) to spacemacs config. Sources: this Github comment, Shane Sveller.
+Then if you put the following in your file:</description>
+    </item>
+    
+    <item>
+      <title>hugo-orgmode</title>
+      <link>http://example.org/posts/hugo-orgmode/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +1100</pubDate>
+      
+      <guid>http://example.org/posts/hugo-orgmode/</guid>
+      <description>Writing Hugo in Org   Hugo is a site generator. Among other things it has native support for generating websites from collections of Emacs Org Mode files.
+  What about a link to Emacs
+  It&amp;rsquo;s as simple as putting .org files in the content/ directory of the the generated site. Hugo has built-in Org Mode support.
+ Hugo will create one page per file. It supports a bunch of different file types out of the box.</description>
+    </item>
+    
+    <item>
+      <title>Emacs cheat sheet</title>
+      <link>http://example.org/posts/emacs/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +1100</pubDate>
+      
+      <guid>http://example.org/posts/emacs/</guid>
+      <description>Rename current file: SPC f R (from Spacemacs config) Open config file: SPC f e f (from Spacemacs config probably) Open buffer list: SPC b b Fuzzy file find: SPC p f Reload config (actually restart Emacs but preserve layout): SPC q r Find out what a key is bound to: C-h c &amp;lt;key&amp;gt; Still have not got tables to be able to align properly.  Trying multiple different versions, none work Tried multiple fonts (Fira Mono + Source Code Pro), since there was a suggestion that fonts that aren&amp;rsquo;t properly monospace would cause issues, but this also doesn&amp;rsquo;t fix anything.</description>
+    </item>
+    
+  </channel>
+</rss>
